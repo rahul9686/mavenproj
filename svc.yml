@@ -3,7 +3,7 @@ kind: Service
 metadata:
       name: mysrv
 spec:
-    selector:
+    selector :
       app: dummy
     type: NodePort 
     ports:
